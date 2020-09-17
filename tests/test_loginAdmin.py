@@ -37,7 +37,7 @@ class TestLoginAdmin():
             dashboard = dashBoardPage(driver)
             dashboard.click_logout()
             x = driver.title
-            assert x == "Dashboard"
+            assert x == "Administator Login"
 
         except AssertionError as error:
             print("Assertion error occurred")
